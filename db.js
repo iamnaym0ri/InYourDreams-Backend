@@ -6,6 +6,9 @@ dotenv.config();
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY);
 
 console.log("🔗 Supabase client initialized!");
+console.log("Supabase URL:", process.env.SUPABASE_URL);
+console.log("Supabase Key:", process.env.SUPABASE_ANON_KEY);
+
 
 export async function createUser(username) {
   const { data, error } = await supabase
