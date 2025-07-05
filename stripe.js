@@ -42,8 +42,8 @@ router.post("/create-checkout-session", async (req, res) => {
       mode: "subscription",
       line_items: [lineItem],
       metadata: { username, plan },
-      success_url: "http://localhost:5173/",
-      cancel_url: "http://localhost:5173/",
+      success_url: "https://in-your-dreams-5i01yjm64-joshua-nyamoris-projects.vercel.app",
+      cancel_url: "https://in-your-dreams-5i01yjm64-joshua-nyamoris-projects.vercel.app",
     });
 
     console.log(session.url);

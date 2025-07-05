@@ -1,0 +1,17 @@
+[33mcommit c43134faf7d55fbb8097bb18c2641f7c2504d282[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Joshua Ny <joshuanyomi07@icloud.com>
+Date:   Fri Jul 4 17:30:58 2025 -0500
+
+    Remove .env from repo
+
+[33mcommit ce2c319513686f1080830b843158f2bde57f37d9[m
+Author: Joshua Ny <joshuanyomi07@icloud.com>
+Date:   Fri Jul 4 17:24:11 2025 -0500
+
+    Add .gitignore
+
+[33mcommit b8c5abc24685d14e4508a886ced8b8d78f9069de[m
+Author: Joshua Ny <joshuanyomi07@icloud.com>
+Date:   Fri Jul 4 17:22:04 2025 -0500
+
+    Initial backend commit
