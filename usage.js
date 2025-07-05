@@ -5,9 +5,9 @@ import axios from "axios";
 const router = express.Router();
 
 const limits = {
-  free: 100,
+  free: 10,
   plus: 100,
-  premium: 100,
+  premium: 300,
   payg: Infinity,
   admin: Infinity,
 };
